@@ -239,7 +239,7 @@ function showLb(){
   document.getElementById('lbImg').src=photos[cur].src;
   document.getElementById('lbCnt').textContent=(cur+1)+' / '+photos.length;
 }
-function step(d){cur=(cur+d+photos.length)%photos.length;showLb();}
+function step(d){cur=(cur+d+photos.length)%photos.length;showLb();}o
 document.addEventListener('keydown',function(e){
   var lb=document.getElementById('lb').classList.contains('open');
   if(e.key==='Escape'){lb?closeLb():closeGallery();}
@@ -248,7 +248,7 @@ document.addEventListener('keydown',function(e){
 });
 </script>
 
-<footer>©(safe77) دار الشباب بشري — المطور فراس</footer>
+<footer>© دار الشباب بشري — المطور فراس(safe77)</footer>
 
 </body>
 </html>
